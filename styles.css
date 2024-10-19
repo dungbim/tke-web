@@ -44,6 +44,14 @@ header {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 nav {
