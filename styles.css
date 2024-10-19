@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #f8f8f8;
+    margin: 0px 45px 0px 45px;
     padding: 10px 20px;
     font-size: 14px;
 }
@@ -51,6 +52,7 @@ header {
 
 .search-bar input {
     width: 80%;
+    margin: 0px 45px 0px 55px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -58,7 +60,7 @@ header {
 }
 
 .search-bar button {
-    background-color: #f60;
+    background-color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -85,6 +87,6 @@ header {
 .category-bar a {
     margin-right: 20px;
     text-decoration: none;
-    color: #f60;
+    color: black;
     font-weight: bold;
 }
