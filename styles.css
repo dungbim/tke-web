@@ -58,7 +58,7 @@ header {
 }
 
 .search-bar button {
-    background-color: #f60;
+    background-color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -85,6 +85,6 @@ header {
 .category-bar a {
     margin-right: 20px;
     text-decoration: none;
-    color: #f60;
+    color: black;
     font-weight: bold;
 }
