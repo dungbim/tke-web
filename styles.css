@@ -117,13 +117,13 @@ header {
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     bottom: 500px; /* Di chuyển xuống 50px */
-    left: 1000px; /* Di chuyển sang phải 100px */
+    left: 630px; /* Di chuyển sang phải 100px */
 }
 .sp2 {
     width: 840px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     bottom: 250px; /* Di chuyển xuống 50px */
-    left: 1000px; /* Di chuyển sang phải 100px */
+    left: 630px; /* Di chuyển sang phải 100px */
 }
 
