@@ -105,7 +105,7 @@ header {
     border-bottom: 1px solid #ddd;
     background-color: #f8f8f8;
 }
-.main-section img {
+.main img {
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     top: 50px; /* Di chuyển xuống 50px */
     left: 200px; /* Di chuyển sang phải 100px */
