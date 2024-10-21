@@ -105,7 +105,7 @@ header {
     background-color: #f8f8f8;
 }
 .main img {
-    width: 450px;
+    width: 500px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     top: 50px; /* Di chuyển xuống 50px */
@@ -116,13 +116,13 @@ header {
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     bottom: 586px; /* Di chuyển xuống 50px */
-    left: 830px; /* Di chuyển sang phải 100px */
+    left: 810px; /* Di chuyển sang phải 100px */
 }
 .sp2 img {
     width: 900px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     bottom: 285px; /* Di chuyển xuống 50px */
-    left: 830px; /* Di chuyển sang phải 100px */
+    left: 810px; /* Di chuyển sang phải 100px */
 }
 
