@@ -106,24 +106,24 @@ header {
     background-color: #f8f8f8;
 }
 .main img {
-    width: 420px;
+    width: 520px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     top: 50px; /* Di chuyển xuống 50px */
-    left: 200px; /* Di chuyển sang phải 100px */
+    left: 300px; /* Di chuyển sang phải 100px */
 }
 .sp1 img {
-    width: 840px;
+    width: 900px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     bottom: 500px; /* Di chuyển xuống 50px */
-    left: 630px; /* Di chuyển sang phải 100px */
+    left: 830px; /* Di chuyển sang phải 100px */
 }
 .sp2 img {
-    width: 840px;
+    width: 900px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
-    bottom: 250px; /* Di chuyển xuống 50px */
-    left: 630px; /* Di chuyển sang phải 100px */
+    bottom: 350px; /* Di chuyển xuống 50px */
+    left: 830px; /* Di chuyển sang phải 100px */
 }
 
