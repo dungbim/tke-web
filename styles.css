@@ -112,17 +112,17 @@ header {
     left: 300px; /* Di chuyển sang phải 100px */
 }
 .sp1 img {
-    width: 900px;
+    width: 940px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
-    bottom: 586px; /* Di chuyển xuống 50px */
+    bottom: 590px; /* Di chuyển xuống 50px */
     left: 810px; /* Di chuyển sang phải 100px */
 }
 .sp2 img {
-    width: 900px;
+    width: 940px;
     height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
-    bottom: 285px; /* Di chuyển xuống 50px */
+    bottom: 320px; /* Di chuyển xuống 50px */
     left: 810px; /* Di chuyển sang phải 100px */
 }
 
