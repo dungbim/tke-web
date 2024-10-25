@@ -15,29 +15,29 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #f8f8f8;
-    margin: 20px 55px 0px 55px;
-    padding: 10px 20px;
+    padding: 30px 20px;
     font-size: 14px;
 }
 
-.top-bar .left-links a,
-.top-bar .right-links a {
+.top-bar .left-links {
+    padding: 0px 0px 0px 75px;
+.top-bar .right-links {
     margin-right: 10px;
+    padding: 0px 75px 0px 0px;
     text-decoration: none;
     color: black;
 }
 
 .top-bar img {
     width: 30px;
-    height: 30px;
+    height: auto;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 45px 0px 55px;
-    padding: 10px;
+    padding: 10px 55px 10px 65px;
     border-bottom: 1px solid #ddd;
     background-color: #f8f8f8;
 }
@@ -76,10 +76,11 @@ header {
     height: 25px;
 }
 
+.cart-icon {
+    padding: 0px 100px 0px 0px;
 .cart-icon img {
     width: 30px;
     height: 30px;
-    margin: 0px 90px 0px 0px;
 }
 
 .category-bar {
