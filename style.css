@@ -34,6 +34,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 20px;
 
 }
 .right-links {
@@ -71,18 +73,18 @@ body {
 }
 
 .fb {
-    width: 40px;
+    width: 35px;
     height: auto;
     padding-left: 10px;
 }
 .ig {
-    width: 35px;
+    width: 27px;
     height: auto;
     position: relative;
     left: 9px;
 }
 .shopee {
-    width: 60px;
+    width: 57px;
     position: relative;
     right: 0px;
 }
