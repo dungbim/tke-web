@@ -344,6 +344,10 @@ header {
     position: relative;
     top: 180px;
 }
+.kh {
+    position: relative;
+    bottom: 135px;
+}
 .kh img {
     position: relative;
     width: 280px;
