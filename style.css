@@ -368,10 +368,11 @@ header {
     left: 800px;
     bottom: 80px;
 }
-.cuoi-trang {
+.cuoi-trang img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1523px;
 }
 .spgh {
     width: 1300px;
