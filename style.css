@@ -1,0 +1,429 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.dong-xanh {
+    background-color: rgb(23, 159, 243);
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.left-links {
+    padding-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-links {
+    margin-right: 10px;
+    padding-right: 75px;
+    text-decoration: none;
+}
+.tb {
+    padding-right: 8px;
+    text-decoration: none;
+    color: black;
+}
+.sp {
+    padding-right: 8px;
+    text-decoration: none;
+    color: black;
+}
+.dk {
+    padding-right: 8px;
+    text-decoration: none;
+    color: black;
+}
+.dn {
+    text-decoration: none;
+    color: black;
+}
+.cua-hang {
+    color: black;
+    text-decoration: none;
+}
+.ketnoi {
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.fb {
+    width: 40px;
+    height: auto;
+    padding-left: 10px;
+}
+.ig {
+    width: 35px;
+    height: auto;
+    position: relative;
+    left: 9px;
+}
+.shopee {
+    width: 60px;
+    position: relative;
+    right: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 55px 10px 65px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+        width: 210px; /* Adjust logo size */
+    margin: 0px 45px 0px 0px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 25px;
+    height: 25px;
+}
+
+.cart-icon {
+    padding: 0px 100px 0px 0px;
+}
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.category-bar {
+    background-color: #f8f8f8;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.category-bar a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 45px 0px 55px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+.main img {
+    width: 1523px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
+    top: 30px; /* Di chuyển xuống 50px */
+    left: 0px; /* Di chuyển sang phải 100px */
+}
+.nemvua img {
+    position: relative;
+    top: 80px;
+    left: 170px;
+    width: 1200px;
+}
+.bochangagoitran {
+    width: 360px;
+    position: relative;
+    top: 80px;
+    left: 186px;
+}
+.bochangagoimong {
+    width: 360px;
+    position: relative;
+    top: 80px;
+    left: 228px;
+    
+}
+.goialnena {
+    width: 360px;
+    position: relative;
+    top: 80px;
+    left: 269px;
+}
+.chubochangagoitran {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(62, 61, 61);
+    background-color: rgb(251, 248, 248);
+    position: relative;
+    left: 296px;
+    bottom: 260px;
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    opacity: 0.8;
+}
+.chubochangagoimong {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(62, 61, 61);
+    background-color: rgb(251, 248, 248);
+    position: relative;
+    left: 703px;
+    bottom: 320px;
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    opacity: 0.8;
+}
+.chugoialnena {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(62, 61, 61);
+    background-color: rgb(251, 248, 248);
+    position: relative;
+    left: 1180px;
+    bottom: 380px;
+    font-size: 25px;
+    width: 180px;
+    height: 60px;
+    opacity: 0.8;
+}
+.chu-salebungno {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    font-weight: bold;
+}
+.sale1 {
+    width: 200px;
+    position: relative;
+    left: 180px;
+    top: 30px;
+}
+.sale2 {
+    width: 200px;
+    position: relative;
+    left: 290px;
+    top: 30px;
+}
+.sale3 {
+    width: 200px;
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.sale4 {
+    width: 200px;
+    position: relative;
+    left: 510px;
+    top: 30px;
+}
+.chusale1 {
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    position: relative;
+    top: 55px;
+    right: 639px;
+    font-size: 15px;
+}
+.tsale1 {
+    position: relative;
+    top: 70px;
+    left: 178px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.chusale2 {
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    position: relative;
+    top: 15px;
+    left: 495px;
+    font-size: 15px;
+}
+.tsale2 {
+    position: relative;
+    top: 30px;
+    left: 495px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.chusale3 {
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    position: relative;
+    bottom: 24px;
+    left: 809px;
+    font-size: 15px;
+}
+.tsale3 {
+    position: relative;
+    bottom: 10px;
+    left: 809px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.chusale4 {
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    position: relative;
+    bottom: 65px;
+    left: 1123px;
+    font-size: 15px;
+}
+.tsale4 {
+    position: relative;
+    bottom: 48px;
+    left: 1123px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.xemthem {
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotcombo img {
+    width: 1523px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 180px;
+}
+.kh img {
+    position: relative;
+    width: 280px;
+    top: 350px;
+    left: 300px;
+}
+.khach-hang {
+    color: rgb(21, 56, 195);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    bottom: 105px;
+    left: 800px;
+}
+.khach-hang-noi {
+    width: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    font-style: italic;
+    position: relative;
+    left: 800px;
+    bottom: 80px;
+}
+.cuoi-trang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spgh {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 210px;
+}
+.logo-cuoi {
+    width: 210px;
+    position: relative;
+    top: 100px;
+    left: 55px;
+}
+.logo-cuoi p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(73, 72, 72);
+    position: relative;
+    top: 140px;
+    left: 75px;
+    width: 350px;
+
+}
+.tru-so2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(73, 72, 72);
+    position: relative;
+    top: 100px;
+    left: 550px;
+    width: 400px;
+
+}
+.uu-dai {
+    position: relative;
+    left: 1050px;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 98, 255);
+}
+.uu-dai img {
+    width: 50px;
+    position: relative;
+    top: 30px;
+}
+.uu-dai input {
+    width: 18%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+}
